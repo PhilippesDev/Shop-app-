@@ -1,10 +1,12 @@
 
-import Header from './components/Header';
+import Banner from "./components/frags/Banner";
+import Cart from "./components/Cart";
 
 function App() {
   return (
       <>
-        <Header />
+        <Banner />
+        <Cart />
       </>
   );
 }
