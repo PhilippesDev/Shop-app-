@@ -1,19 +1,10 @@
 
-function MyComponent() {
-    return (<div>Hello OpenClassrooms </div>)
-}
-
-const MyComponent2 = ({name : firstname}) => {
-    return (
-    <div>Hello OpenClassrooms 2 {firstname}</div>
-  )
-}
+import Header from './components/Header';
 
 function App() {
   return (
       <>
-        <MyComponent />
-        <MyComponent2 name="By philippe mirindi"/>
+        <Header />
       </>
   );
 }
