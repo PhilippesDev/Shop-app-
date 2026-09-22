@@ -10,7 +10,7 @@ function Cart(){
 
     return (
         <Fragment>
-            <div className="lmj-banner">
+            <div className="lmj-cart">
                 <h3>Votre panier</h3>
 
                     <ul>
