@@ -1,12 +1,15 @@
 import "../styles/style.css";
 
 function Header() {
+
+  const title = "La maison jungle";
+
   return (
-    <header className="lmj-banner">
+    <header className="lmj-title">
       <h1 style={{
         color: 'Red'
       }}>
-        Welcome to La maison jungle !</h1>
+        {title}</h1>
     </header>
   );
 }
