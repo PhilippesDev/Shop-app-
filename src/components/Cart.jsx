@@ -10,14 +10,16 @@ function Cart(){
 
     return (
         <Fragment>
-            <h3>Votre panier</h3>
+            <div className="lmj-banner">
+                <h3>Votre panier</h3>
 
-            <ul>
-                <li>Monstera : {prix_monstera} $</li>
-                <li>Lierre : {prix_lierre} $</li>
-                <li>Bouquet des fleurs : {prix_bouquet} $</li>
-            </ul>
-            <p>Prix Total = {prix_monstera + prix_lierre + prix_bouquet} $</p>
+                    <ul>
+                        <li>Monstera : {prix_monstera} $</li>
+                        <li>Lierre : {prix_lierre} $</li>
+                        <li>Bouquet des fleurs : {prix_bouquet} $</li>
+                    </ul>
+                    <p>Prix Total : {prix_monstera + prix_lierre + prix_bouquet} $</p>
+            </div>
         </Fragment>
     )
 }
