@@ -1,0 +1,2 @@
+import { plantList } from "./plantList";
+
