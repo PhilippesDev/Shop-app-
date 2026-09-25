@@ -1,7 +1,7 @@
 import Header from "../Header";
 import Description from "../Description";
 import logo from '../../assets/leaf+1.png';
-import "../../styles/style.css";
+import "../../styles/Banner.css";
 
 function Banner()
 {

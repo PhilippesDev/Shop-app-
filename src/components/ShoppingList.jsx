@@ -1,5 +1,6 @@
 import { plantList } from '@/data/plantList.js';
 import CategoriesDisplay  from './Categories_display';
+import '../styles/ShoppingList.css';
 
 function ShoppingList() {
 
@@ -9,10 +10,13 @@ function ShoppingList() {
 
             <div>   
                 <h2>Liste des plantes</h2>
-                <ul>
+                <ul className="lmj-plant-list">
                     {
                         plantList.map((plant) => (
-                            <li key={plant.id}>{plant.name}{plant.isBestSale ? ' (Meilleure vente)' : ''}</li>
+                            <li className="lmj-plant-item" key={plant.id}>
+                                {plant.name}
+                                {plant.isSpecialOffer && <div className='lmj-sales'>Soldes</div>}
+                                </li>
                         ))
                     }
                 </ul>

@@ -27,7 +27,8 @@ export const plantList = [
 		name: 'olivier',
 		category: 'extérieur',
 		id: '5pl',
-		isBestSale: false
+		isBestSale: false,
+		isAvailable: false
 	},
 	{
 		name: 'géranium',
@@ -45,12 +46,14 @@ export const plantList = [
 		name: 'aloe',
 		category: 'plante grasse',
 		id: '8fp',
-		isBestSale: false
+		isBestSale: false,
+		isSpecialOffer: true
 	},
 	{
 		name: 'succulente',
 		category: 'plante grasse',
 		id: '9vn',
-		isBestSale: false
+		isBestSale: false,
+		isSpecialOffer: true
 	}
 ]
