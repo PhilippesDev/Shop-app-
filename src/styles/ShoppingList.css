@@ -28,3 +28,15 @@
 	padding: 5px 10px;
 	background-color: #31b572;
 }
+
+.lmj-plant-item-cover {
+	max-width: 100%;
+	max-height: 70px;
+	object-fit: contain;
+}
+
+.lmj-care-scale {
+	display: flex;
+	gap: 2px;
+	margin-top: 8px;
+}
