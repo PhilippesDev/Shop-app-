@@ -6,13 +6,17 @@ function ShoppingList() {
     return (
         <div>
             <CategoriesDisplay />
-            <ul>
-                {
-                    plantList.map((plant, index) => (
-                        <li key={`${plant}-${index}`}>{plant}</li>
-                    ))
-                }
-            </ul>
+
+            <div>   
+                <h2>Liste des plantes</h2>
+                <ul>
+                    {
+                        plantList.map((plant) => (
+                            <li key={plant.id}>{plant.name}</li>
+                        ))
+                    }
+                </ul>
+            </div>
         </div>
     );
     
